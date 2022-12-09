@@ -4,14 +4,23 @@ The aim of this project is to develop a model that predicts the popularity metri
 to 100 (0 being least popular to 100 being most popular) for unreleased or new music using
 regression. 
 
+Package Requirements - 
+- Python. - 3.10.5
+- numpy - 1.22.4
+- matplotlib - 3.5.2
+- sklearn - 1.1.1 
+- pandas - 1.4.2
+- xgboost - 1.5.1
+- shap - 0.40.0
+
 For this project, data has been collected from seven genres of music 
-- Alternative,
-- Blues, 
-- Hip-Hop, 
-- Indie Alternative, 
-- Metal, 
+- Alternative
+- Blues
+- Hip-Hop
+- Indie Alternative
+- Metal
 - Popular 
-- Rock music 
+- Rock
 
 Most features in the dataset focus on the quality of music through audio features which are defined below:
 - Danceability refers to how suitable a track is for dancing based on a combination of musical
